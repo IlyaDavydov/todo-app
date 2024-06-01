@@ -11,18 +11,18 @@ module.exports = {
   },
   module: {
     rules: [
-        {
-            test: /\.css$/,
-            use: ['style-loader', 'css-loader'] 
-          },
-          {
-            test: /\.(png|jpe?g|gif|svg)$/i, 
-            type: 'asset/resource' 
-          },
-          {
-            test: /\.(woff|woff2|eot|ttf|otf)$/i, 
-            type: 'asset/resource' 
-          }
+      {
+        test: /\.css$/, 
+        use: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/, 
+        type: 'asset/resource'
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/, 
+        type: 'asset/resource'
+      }
     ]
   },
   plugins: [

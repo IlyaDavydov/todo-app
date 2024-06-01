@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'LogoFont'; 
+    src: url('../assets/logofont.ttf') format('truetype');
+}
+
+
+body {
+    margin: 0;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: beige;
+}
+
+#information {
+    display: flex;
+    flex-grow: 1; 
+    background-color: violet;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b72ef;
+    color: white;
+    font-family: "LogoFont", sans-serif;
+}
+
+#header * {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    font-size: 70px;
+}
+
+#img {
+    height: 100px;
+    width: 100px;
+    background-image: url('../assets/logo.svg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+#panel {
+    display: flex;
+    flex-direction: column;
+    background-color: #62a4f4;
+    width: 17.5%;
+}
+
+#content {
+    flex-grow: 1; 
+    background-color: #b8d3f5;
+}

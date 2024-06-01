@@ -9,4 +9,11 @@ export class Project {
     addTask(task) {
         this.tasks.push(task);
     }
+
+    deleteTask(task) {
+        let index = this.tasks.indexOf(task);
+        if (index > -1) {
+            this.tasks.splice(index, 1);
+        }
+    }
 }
